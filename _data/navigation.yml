@@ -1,10 +1,10 @@
 # main links
 main:
-   - title: "Astro"
+   - title: "About"
      url: /about/
-   - title: "Politics"
-     url: /blogs/politics/
+   - title: "Astro"
+     url: /blogs/astro/
    - title: "Musicals"
      url: /blogs/musicals/
-   - title: "Tags"
-     url: /blogs/tags/
+   - title: "Politics"
+     url: /blogs/politics/
