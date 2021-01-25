@@ -52,8 +52,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true #, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -95,7 +95,9 @@ analytics:
 author:
   name             : "Evrine"
   avatar           : "/assets/images/headshot.png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Astrophysics PhD Student, Self-Identified Progressive,Sondheim Stan"
+  bio              : "Astrophysics PhD Student,\n
+                      Self-Identified Progressive,\n
+                      Sondheim Stan"
   email            : "untiltheearthisfree@protonmail.com"
   links:
     - label: "Mastodon"
@@ -117,23 +119,23 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: #"Twitter"
+      icon: #"fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    - label: #"Facebook"
+      icon: #"fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    - label: #"GitHub"
+      icon: #"fab fa-fw fa-github"
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+    - label: #"GitLab"
+      icon: #"fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+    - label: #"Bitbucket"
+      icon: #"fab fa-fw fa-bitbucket"
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    - label: #"Instagram"
+      icon: #"fab fa-fw fa-instagram"
       # url:
 
 
@@ -266,7 +268,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -288,3 +290,7 @@ defaults:
       type: foo
     values:
       layout: single
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
