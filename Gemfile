@@ -17,6 +17,7 @@ gem "jekyll"
 gem "github-pages"
 gem "minimal-mistakes-jekyll"
 gem "jemoji"
+gem "webrick"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"

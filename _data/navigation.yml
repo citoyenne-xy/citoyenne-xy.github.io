@@ -3,8 +3,12 @@ main:
    - title: "About"
      url: /about/
    - title: "Astro"
-     url: /_posts/astro/
+     url: /categories/#astro
    - title: "Musicals"
-     url: /_posts/musicals/
+     url: /categories/#musicals
    - title: "Politics"
-     url: /_posts/politics/
+     url: /categories/#politics
+   - title: "Tags"
+     url: /tags/
+   - title: "Sitemap"
+     url: /sitemap/
