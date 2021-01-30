@@ -271,16 +271,16 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
       author_profile: true
+      show_date: true
       read_time: true
       comments: true
       share: false
       related: true
-      show_date: true
   # _pages
   - scope:
       path: ""
