@@ -3,8 +3,8 @@ main:
    - title: "About"
      url: /about/
    - title: "Astro"
-     url: /blogs/astro/
+     url: /_posts/astro/
    - title: "Musicals"
-     url: /blogs/musicals/
+     url: /_posts/musicals/
    - title: "Politics"
-     url: /blogs/politics/
+     url: /_posts/politics/
