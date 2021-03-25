@@ -41,11 +41,11 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "github-light" #(default), "github-dark"
-    issue_term           : "pathname" #(default)
+    theme                : #"github-light" (default), "github-dark"
+    issue_term           : #"pathname" (default)
   staticman:
     branch               : "master"
-    endpoint             : "https://https://citoyenne-xy.github.io/v3/entry/github/"
+    endpoint             : "https://citoyenne-xy.github.io/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
