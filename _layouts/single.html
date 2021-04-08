@@ -72,7 +72,6 @@ layout: default
         {% endfor %}
       </div>
     </div>
-  <!--{% comment %} otherwise show recent posts if no related when `related: true` {% endcomment %}-->
   {% for c in page.comments %}
   <a href="{{c.link}}">{{c.nick}}</a>
   <p>
