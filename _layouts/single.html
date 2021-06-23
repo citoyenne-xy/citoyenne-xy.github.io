@@ -64,7 +64,7 @@ layout: default
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% for c in page.comments %}
-   {% include comments.html %}
+  {% include comments.html %}
    <a href="{{c.link}}">{{c.nick}}</a>
    <p>
     {{c.content}}
