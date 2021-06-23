@@ -3,6 +3,12 @@ layout: single
 ---
 
 {{ content }}
-
+{% for c in page.comments %}
+  <a href="{{c.link}}">{{c.nick}}</a>
+  <p>
+    {{c.content}}
+  </p>
+  <hr />
+{% endfor %}
 
 
