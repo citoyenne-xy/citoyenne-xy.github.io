@@ -14,5 +14,7 @@
     {% include /comments-providers/utterances.html %}
   {% when "custom" %}
     {% include /comments-providers/custom_scripts.html %}
+  {% when "comments" %}
+    {% include /comments-providers/comments.html %}
 {% endcase %}
 {% endif %}

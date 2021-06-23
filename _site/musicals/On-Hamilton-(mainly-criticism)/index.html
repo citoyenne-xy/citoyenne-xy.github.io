@@ -450,7 +450,6 @@
 
   
   
-  
     <div class="page__related">
       <h4 class="page__related-title">You May Also Enjoy</h4>
       <div class="grid__wrapper">
@@ -461,7 +460,6 @@
     </div>
   
 </div>
-
     </div>
 
     
@@ -520,6 +518,46 @@
 <script src="/assets/js/lunr/lunr.min.js"></script>
 <script src="/assets/js/lunr/lunr-store.js"></script>
 <script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    ---
+layout: single
+---
+<div id="comments">
+	
+		
+	
+	<h1>Post a comment</h1>
+	<p style="font-style: italic">
+		All comments are held for moderation; basic HTML formatting accepted.
+	</p>
+	<form id="commentform" method="POST" action="http://localhost:4000/commentsubmit.php">
+		<input type="hidden" name="post_id" value="/musicals/On-Hamilton (mainly criticism)" />
+		<input type="hidden" name="return_url" value="http://localhost:4000/musicals/On-Hamilton-(mainly-criticism)/" />
+		<table>
+			<tr>
+				<th>Name:</th>
+				<td><input type="text" size="25" name="name" /> (required)</td>
+			</tr>
+			<tr>
+				<th>E-mail:</th>
+				<td><input type="text" size="25" name="email" /> (required, not published)</td>
+			</tr>
+			<tr>
+				<th>Website:</th>
+				<td><input type="text" size="25" name="link" /> (optional)</td>
+			</tr>
+			<tr>
+				<td colspan="2"><textarea name="comment" rows="10" cols="60" ></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="submit" value="Submit Comment" /></td>
+			</tr>
+		</table>
+	</form>
+</div>
 
 
 
