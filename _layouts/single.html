@@ -63,33 +63,6 @@ layout: default
   </article>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
-  <form id="invisible-recaptcha-form" accept-charset="UTF-8" action="https://usebasin.com/f/..." method="POST">
-
-	<!-- input fields -->
-
-	<div class="g-recaptcha" data-sitekey="..." data-callback="onSubmit" data-badge="inline" data-size="invisible"></div>
-	<button class="btn btn-primary">Submit</button>
-</form>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script>
-	document.getElementById("invisible-recaptcha-form").addEventListener("submit", function(){
-		event.preventDefault();
-		grecaptcha.reset();
-		grecaptcha.execute();
-	}, false);
-	function onSubmit(token) {
-		document.getElementById("invisible-recaptcha-form").submit();
-	}
-</script>
-  <form action="https://usebasin.com/f/d4ecd8fd6770" method="POST">
-<label for="email-address">Email Address</label>
-<input type="email" id="email" name="email" required>
-    <input type="text" name="name" required>
-    <input type="text" name="website">
-    <input type="text" name="comments" required>
-<button type="submit">Submit</button>
-</form>
-
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
