@@ -3,9 +3,5 @@ layout: single
 ---
 
 {{ content }}
-{% raw %}
-{% if site.isso.script_src %}
-  <script data-isso="{{site.isso.data_isso}}" src="{{site.isso.script_src}}"></script>
-  <section id="isso-thread"></section>
-{% endif %}
-{% endraw %}
+<div id="mouthful-comments" data-url="http://localhost:8080"></div>
+<script src="http://localhost:8080/client.js"></script>
