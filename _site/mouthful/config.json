@@ -1,14 +1,14 @@
 {
     "honeypot": true,
     "moderation": {
-        "enabled": true,
+        "enabled": false,
         "adminPassword": "12345",
         "disablePasswordLogin": true,
         "oauthCallbackOrigin": "https://api.dizzy.zone",
         "sessionDurationSeconds": 21600,
         "maxCommentLength": 10000,
         "maxAuthorLength": 35,
-        "path": "/",
+        "path": "",
         "oauthProviders": [
             {
                 "name": "github",
@@ -41,7 +41,7 @@
         },
         "cors": {
             "enabled": true,
-            "allowedOrigins": ["https://dizzy.zone"]
+            "allowedOrigins": ["https://citoyenne-xy.github.io"]
         }
     },
     "client": {
@@ -51,7 +51,7 @@
     "notification": {
         "webhook": {
             "enabled": false,
-            "url": ""
+            "url": "https://citoyenne-xy.github.io"
         }
     }
 }
