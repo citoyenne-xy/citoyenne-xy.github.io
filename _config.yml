@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : false #"comments"#"staticman_v2" false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances",
+  provider               : "utterances" #"comments"#"staticman_v2" false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances",
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -281,7 +281,7 @@ defaults:
       author_profile: true
       show_date: true
       read_time: true
-      comments: false
+      comments: true
       share: false
       related: true
   # _pages
