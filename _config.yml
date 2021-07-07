@@ -267,9 +267,6 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-isso:
-  data_isso: /isso/
-  script_src: /isso/js/embed.min.js
 # Defaults
 defaults:
   # _posts
