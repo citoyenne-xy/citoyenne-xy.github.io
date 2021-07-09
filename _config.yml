@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "utterances" #"comments"#"staticman_v2" false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances",
+  provider               : "staticman_v2" #"comments"#"staticman_v2" false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances",
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -44,8 +44,8 @@ comments:
     theme                : #"github-light" (default), "github-dark"
     issue_term           : #"pathname" (default)
   staticman:
-    branch               : #"master"
-    endpoint             : #"https://citoyenne-xy.github.io/v3/entry/github/"
+    branch               : "master"
+    endpoint             : "https://commentstcm.herokuapp.com/v2/entry/citoyenne-xy/citoyenne-xy.github.io/master/comments"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -303,3 +303,14 @@ defaults:
       author_profile: false
       share: true
 
+# The URL for the staticman API bridge endpoint
+# You will want to modify some of the values:
+#  ${github-username}: the username of the account with which you publish your blog
+#  ${blog-repo}: the name of your blog repository in github
+#  master: this the branch out of which your blog is published, often master or gh-pages
+#  ${bridge_app_name}: the name you chose in Heroku for your bridge API
+#  comments: the so-called property, this defines the key in staticman.yml where the configuration is found
+#
+# for me, this line reads:
+# https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
+#staticman_url: https://commentstcm.herokuapp.com/v2/entry/citoyenne-xy/citoyenne-xy.github.io/master/comments
