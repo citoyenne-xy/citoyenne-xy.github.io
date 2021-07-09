@@ -1,0 +1,14 @@
+# main links
+main:
+   - title: "About"
+     url: /about/
+   - title: "Astro"
+     url: /categories/#astro
+   - title: "Musicals"
+     url: /categories/#musicals
+   - title: "Politics"
+     url: /categories/#politics
+   - title: "Tags"
+     url: /tags/
+   - title: "Sitemap"
+     url: /sitemap/
