@@ -45,7 +45,7 @@ comments:
     issue_term           : #"pathname" (default)
   staticman:
     branch               : "master"
-    endpoint             : "https://commentstcm.herokuapp.com/v3/entry/github.com/"
+    endpoint             : "https://commentstcm.herokuapp.com/v3/entry/github/citoyenne-xy/citoyenne-xy.github.io/master/comments"
 reCaptcha:
   siteKey                :
   secret                 :
