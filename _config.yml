@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : false #"comments"#"staticman_v2" false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances",
+  provider               : "staticman_v2" #"comments"#"staticman_v2" false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances",
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -45,7 +45,7 @@ comments:
     issue_term           : #"pathname" (default)
   staticman:
     branch               : "master"
-    endpoint             : "https://commentstcm.herokuapp.com/v3/entry/github/citoyenne-xy/citoyenne-xy.github.io/master/comments"
+    endpoint             : "https://commentstcm.herokuapp.com/v2/entry/citoyenne-xy/citoyenne-xy.github.io/master/comments"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -313,4 +313,4 @@ defaults:
 #
 # for me, this line reads:
 # https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
-staticman_url: https://commentstcm.herokuapp.com/v3/entry/github/citoyenne-xy/citoyenne-xy.github.io/master/comments
+staticman_url: https://commentstcm.herokuapp.com/v2/entry/citoyenne-xy/citoyenne-xy.github.io/master/comments
