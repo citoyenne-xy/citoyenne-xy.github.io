@@ -313,4 +313,5 @@ defaults:
 #
 # for me, this line reads:
 # https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
-staticman_url: https://commentstcm.herokuapp.com/v2/entry/citoyenne-xy/citoyenne-xy.github.io/master/comments
+staticman_url: https://commentstcm.herokuapp.com/v3/entry/github/citoyenne-xy/citoyenne-xy.github.io/master/comments
+

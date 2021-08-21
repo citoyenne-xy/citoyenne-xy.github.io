@@ -17,7 +17,7 @@ comments:
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
-  # allowedOrigins: ["yourdomain.com"]
+  allowedOrigins: ["citoyenne-xy.github.io"]
 
   # (*) REQUIRED
   #
@@ -25,7 +25,7 @@ comments:
   # request.
   branch: "master"
 
-  commitMessage: "New comment by {fields.name}"
+  commitMessage: "New comment by {fields.name} in {options.slug}"
 
   # (*) REQUIRED
   #
@@ -49,36 +49,36 @@ comments:
   # Whether entries need to be approved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
-  moderation: true
+  moderation: false
 
   # Akismet spam detection.
-  # akismet:
-  #   enabled: true
-  #   author: "name"
-  #   authorEmail: "email"
+  akismet:
+    enabled: true
+    author: "name"
+    authorEmail: "email"
   #   authorUrl: "url"
-  #   content: "message"
-  #   type: "comment"
+    content: "message"
+    type: "comment"
 
   # Name of the site. Used in notification emails.
-  # name: "Your Site"
+  name: "Moments in the Woods"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
   # with Mailgun, which you can get for free at http://mailgun.com.
-  # notifications:
+  notifications:
     # Enable notifications
-    # enabled: true
+    enabled: true
 
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    # apiKey: ""
+    apiKey: "f6vS+KWH+0kYlJ3E3J43qFtBfa6K7EtDkRdTlLNfmDUq46k+6ui5V7vPMYSaHAoSCTvah2GvM+s8J0ePMig1nM+theGf58l/lgcmCU+wp9KH6yVnpynQm62X4JAnN26lD9F4ogfVv0HUHkt6EFnRMz+xIiZPFxn/aPcNQT8QuJF+cTACDTpnwmRuLV1N9zNovEMF3br5jjorYhBQS26S3gBBsaH5E8M+X4YX8/B5PLgbHp7+zas8mpPEm/IFG0WLbdAsfEmZ/eQFHmXATAT19edyWiBNF7R3Xukqm/d45+9Qa5DHZHZBCWCmJeTiLdiMLyPB/fwMOL7wIdn28WsuE0hnpjkJQ4jenpPL3mARyBIe14O2NkveaKtNL2UA6r++1OGIPp3SDnObOb6j9RZL1sWrTc8qSXozJh7htKOeMCzNwcwWqRCIflpWtRUWbKRsPAjA+RYW/AFdtPnCzRYsTo+JGQJKgKbZsIbtrfInch4M5S5RRMnt1TaRVzmsV6MPVgKBMcUTXt4yOQ5VivwiAkM63UMqDnYKPNbZqrnZ0CRNIVQ0HbcjZR/kQKRpiuHaCzbRJNPBAwfbimCncAqigq17ztcFe3OVNGgBILpIeQuBbFkX3babATSz0Wq5kU6jbCKjnnClAYU82jTt1UbdJ2B4ceCZMxTQZLbAadF2Bw0="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    # domain: ""
+    domain: "HRJ7BauMkJNnMiJs1mWFHuppNQy3A2cP9BMvVYTxsStXV5PAAJjw/uyHUfYrYD1qG66Ib4yUgSrCWF/t8zJ+rHVHWK0mAc21bZ4lttFis5uCc9zKAd5DWr29Yfh211MRZArGUTyBWQiynHOgTiJIg6ZnShJvH+MUMJkfEpg0PXjMgqwU1tNs5a/SvKkPadSAk6ltoUq6/wx2PikZZ6bEUZ2UVOxWFRxkqlQFjxJCRymxg06QRcOSZq/lZKkrfmKhA+V9IlqHi2jF2SVgEQ5dF+aQYh5c5m6WhzWM1P1jCp0nb8kuYKnMIM79f1q8DfcygRt7YuvFGGE3OSsK26kSFoAz0OQ+1mLHNQ6FvobJ5EHvXCm2BR9ZV94BSGbqmfbPIbIzkl/P3V4+9+yQIv+bUG66JUW1jqdA6geHO0Wdr3rnzy5lyN8/M4Ppn26L9MIR/fIS/PxIoLHVxJ8HPLID9lhaLLm9w/i22Jm5S5bwjY/Zw+dbVHLWft9POMV8K1nVMAbCq+T5Vg7GGO9KbFdfl0PVvS50THU9bw3xwDbRIUkbm/dc1VEllLjRfXKVphHL4nBPgBOSL9nAUaQS17WIlXNx7uDyWGF13HSL02eeOFSIaDtktu8ChEWkd838iIunIstnbqssK2UMLlM/Lr9gbYPODpzRC6g+vcm7ZWYnkzM="
 
   # (*) REQUIRED
   #
