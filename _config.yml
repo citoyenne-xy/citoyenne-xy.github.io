@@ -45,7 +45,7 @@ comments:
     issue_term           : #"pathname" (default)
   staticman:
     branch               : "master"
-    endpoint             : "https://commentstcm.herokuapp.com/v2/entry/"
+    endpoint             : "https://commentstcm.herokuapp.com/v3/entry/github/"
 reCaptcha:
   siteKey                : "6Lc8gLYbAAAAAFqYkgd6-rQVDD6W4BCU6_tLog7E"
   secret                 : "6Lc8gLYbAAAAAI_qcXpMiNIqKoaghFNIwG0yCDB1"
@@ -313,4 +313,4 @@ defaults:
 #
 # for me, this line reads:
 # https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
-#staticman_url: https://commentstcm.herokuapp.com/v2/entry/citoyenne-xy/citoyenne-xy.github.io/master/comments
+staticman_url: https://commentstcm.herokuapp.com/v2/entry/citoyenne-xy/citoyenne-xy.github.io/master/comments
