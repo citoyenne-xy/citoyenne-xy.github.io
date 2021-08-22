@@ -53,7 +53,7 @@ comments:
 
   # Akismet spam detection.
   akismet:
-    enabled: true
+    enabled: false
     author: "name"
     authorEmail: "email"
   #   authorUrl: "url"
@@ -68,7 +68,7 @@ comments:
   # with Mailgun, which you can get for free at http://mailgun.com.
   notifications:
     # Enable notifications
-    enabled: true
+    enabled: false
 
     # (!) ENCRYPTED
     #
