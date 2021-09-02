@@ -47,8 +47,8 @@ comments:
     branch               : "master"
     endpoint             : "https://staticmanevrine.herokuapp.com/v3/entry/github/"
 reCaptcha:
-  siteKey                : "6Lc8gLYbAAAAAFqYkgd6-rQVDD6W4BCU6_tLog7E"
-  secret                 : "fj/V41mJ1zoIX12v+Wv1kcojkCtsrQnmtPbakmJbr/9X8Wbw2r7ZOyFfRVGGJc42Cr6UGD1CiVK9xtX6QyW5n4ZIbJlmZN/vU7DbAXSYHaShjIaPuioBUUk6C0uoT0YiMuUD18yAoHwDc49Ob3MJY+Ywc1+YoQOsxphROaiSVH/8i0YWBAF1/LrzWOtvxbTciwbFzwSIxe297L+DLGV5IATQZQToa+0TgCuw6tktzZjd9HWBMqds7PeZN8kw8J8UP6UDhCzUso5NQzM9dtl4bIiTvPSeTgIB5Rw6nVfIYkNGlw3Po1aFtX4QaGvST3nHg5KuktAGLsjunKiLnCFKnX4Oh1dOmP6gfvLe33OtKyuE98IRCLPCvzEBOULTefCkWHOUIYnM9z0QkW1fPlyV+cgZbSnWXf8BhqKFYf8wTRv964Oig4Q+UT3m1n84ElhJ00d3/7lhAXFXKZJqmuyeOrQx3SkBSKnpXH6n3KabbEbOsI3pnkvV5jEgf7mk4xj8LGOZMkUeFAa5EczrKzlGOFT0LE2oPyvGB4SlfxlqdqRuvRkjKV+RvZFYHld/FHASg7cVbwkfkGfece8l5CAMyervGnRb1/wS7iU5ocaIoAnORk1hHY67RaWhjzBaK8VNCdnAg00LsYoyzAgcPX7SzAmHy0ieDdwnXVJ6jaraMwU="
+  siteKey                : #"6Lc8gLYbAAAAAFqYkgd6-rQVDD6W4BCU6_tLog7E"
+  secret                 : #"fj/V41mJ1zoIX12v+Wv1kcojkCtsrQnmtPbakmJbr/9X8Wbw2r7ZOyFfRVGGJc42Cr6UGD1CiVK9xtX6QyW5n4ZIbJlmZN/vU7DbAXSYHaShjIaPuioBUUk6C0uoT0YiMuUD18yAoHwDc49Ob3MJY+Ywc1+YoQOsxphROaiSVH/8i0YWBAF1/LrzWOtvxbTciwbFzwSIxe297L+DLGV5IATQZQToa+0TgCuw6tktzZjd9HWBMqds7PeZN8kw8J8UP6UDhCzUso5NQzM9dtl4bIiTvPSeTgIB5Rw6nVfIYkNGlw3Po1aFtX4QaGvST3nHg5KuktAGLsjunKiLnCFKnX4Oh1dOmP6gfvLe33OtKyuE98IRCLPCvzEBOULTefCkWHOUIYnM9z0QkW1fPlyV+cgZbSnWXf8BhqKFYf8wTRv964Oig4Q+UT3m1n84ElhJ00d3/7lhAXFXKZJqmuyeOrQx3SkBSKnpXH6n3KabbEbOsI3pnkvV5jEgf7mk4xj8LGOZMkUeFAa5EczrKzlGOFT0LE2oPyvGB4SlfxlqdqRuvRkjKV+RvZFYHld/FHASg7cVbwkfkGfece8l5CAMyervGnRb1/wS7iU5ocaIoAnORk1hHY67RaWhjzBaK8VNCdnAg00LsYoyzAgcPX7SzAmHy0ieDdwnXVJ6jaraMwU="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : #, false (default)
