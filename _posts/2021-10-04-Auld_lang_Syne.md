@@ -9,6 +9,8 @@ tags:
 ---
 # 友谊地久天长
 
+by [John Green](https://www.johngreenbooks.com)
+
 <iframe frameborder="0" scrolling="no" height="130" width="100%" src="https://www.wnyc.org/widgets/ondemand_player/wnycstudios/#file=/audio/json/980588/&share=1"></iframe>
 
 ## 第一部分
