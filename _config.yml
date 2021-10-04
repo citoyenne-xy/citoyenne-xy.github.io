@@ -20,7 +20,7 @@ title                    : "Moments In The Woods"
 title_separator          : "-"
 subtitle                 : "One peculiar passing moment."# site tagline that appears below site title in masthead
 name                     : "Evrine"
-description              : "Astrophysics, Politics, Musical Theatre, and others."
+description              : "Astronomy, Politics, Musical Theatre, and others."
 url                      : "https://citoyenne-xy.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "citoyenne-xy/citoyenne-xy.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
