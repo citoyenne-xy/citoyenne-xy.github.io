@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Evrine"
   avatar           : "/assets/images/headshot.png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "astronomy, politics, musicals"
+  bio              : "Things will come alright now, we can make it so."
   email            : "untiltheearthisfree@protonmail.com"
   links:
     - label: "Mastodon"
