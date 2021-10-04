@@ -11,7 +11,7 @@ tags:
 
 ## 第一部分
 
-大家好，欢迎收听新一集人类世回顾 [the Anthropocene Reviewed](https://www.wnycstudios.org/podcasts/anthropocene-reviewed/episodes/anthropocene-reviewed-auld-lang-syne) ，在这个播客里我们将从人类中心视角来看待这个星球上方方面面，并用五星等级给出评分。今天，我将回顾《友谊地久天长》，一首常被和新年夜联系起来的歌曲。想来令人惊奇，在一个新事物层出不穷的世界里，我们却用一首如此古老的歌曲来迎接新年。
+大家好，欢迎收听新一集人类世回顾(the Anthropocene Reviewed)，在这个播客里我们将从人类中心视角来看待这个星球上方方面面，并用五星等级给出评分。今天，我将回顾 [《友谊地久天长》](https://www.wnycstudios.org/podcasts/anthropocene-reviewed/episodes/anthropocene-reviewed-auld-lang-syne) ，一首常被和新年夜联系起来的歌曲。想来令人惊奇，在一个新事物层出不穷的世界里，我们却用一首如此古老的歌曲来迎接新年。
 
 
 
