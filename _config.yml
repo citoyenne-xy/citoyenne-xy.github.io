@@ -95,9 +95,7 @@ analytics:
 author:
   name             : "Evrine"
   avatar           : "/assets/images/headshot.png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Astrophysics Nerd,\n
-                      Self-Identified Progressive,\n
-                      Sondheim Stan"
+  bio              : "astronomy, politics, musicals"
   email            : "untiltheearthisfree@protonmail.com"
   links:
     - label: "Mastodon"
