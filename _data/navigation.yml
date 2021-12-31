@@ -2,8 +2,6 @@
 main:
    - title: "About"
      url: /about/
-   - title: "Astro"
-     url: /categories/#astro
    - title: "Musicals"
      url: /categories/#musicals
    - title: "Politics"
