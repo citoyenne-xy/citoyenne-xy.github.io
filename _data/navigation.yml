@@ -8,8 +8,8 @@ main:
      url: /categories/#musicals
    - title: "Politics"
      url: /categories/#politics
-   - title: "Translations"
-     url: /categories/#translations
+   - title: "Others"
+     url: /categories/#others
    - title: "Tags"
      url: /tags/
    - title: "Sitemap"

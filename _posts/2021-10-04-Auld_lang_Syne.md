@@ -2,7 +2,7 @@
 layout: posts
 title: "Auld Lang Syne (the Anthropocene Reviewed)翻译"
 categories:
-  - translations
+  - others
 tags:
   - podcast
   - book
