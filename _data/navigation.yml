@@ -4,6 +4,8 @@ main:
      url: /about/
    - title: "Musicals"
      url: /categories/#musicals
+   - title: "Politics"
+     url: /categories/#politics
    - title: "Others"
      url: /categories/#others
    - title: "Tags"
