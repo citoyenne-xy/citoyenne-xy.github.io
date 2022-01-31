@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: ""
+title: "特德姜访谈：关于超级英雄，人工智能和资本主义(上)"
 categories:
   - politics
 tags:
