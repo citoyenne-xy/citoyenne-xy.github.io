@@ -17,7 +17,7 @@ comments:
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
-  # allowedOrigins: ["yourdomain.com"]
+  allowedOrigins: ["citoyenne-xy.github.io"]
 
   # (*) REQUIRED
   #
@@ -25,7 +25,7 @@ comments:
   # request.
   branch: "master"
 
-  commitMessage: "New comment by {fields.name}"
+  commitMessage: "New comment by {fields.name} in {options.slug}"
 
   # (*) REQUIRED
   #
@@ -49,37 +49,39 @@ comments:
   # Whether entries need to be approved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
-  moderation: true
+  moderation: false
 
   # Akismet spam detection.
-  # akismet:
-  #   enabled: true
-  #   author: "name"
-  #   authorEmail: "email"
+  akismet:
+    enabled: false
+    author: "name"
+    authorEmail: "email"
   #   authorUrl: "url"
-  #   content: "message"
-  #   type: "comment"
+    content: "message"
+    type: "comment"
 
   # Name of the site. Used in notification emails.
-  # name: "Your Site"
+  name: "Moments in the Woods"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
   # with Mailgun, which you can get for free at http://mailgun.com.
-  # notifications:
+  notifications:
     # Enable notifications
-    # enabled: true
+    enabled: false
 
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    # apiKey: ""
+    apiKey: "T6JjQ3mub1PNTIdtP2vRIjnfU8INQQLST+WrMvMR6EZRJ+eUi2OChDc63V8HM6BeRTFLFbG11ax6/6lDOtwC24V53W1si7igSWaiI6x5erwYBKlP9jDbgFVdDbZJcwo74gUJtjSSXJSiyfo8Eu0fLbs7utft76Cbfcki5ESs2n0HE0U/Sf/37GRABFS/VXIO2cSkY2GX5pq58fRct4U0Yvj203iWVq3X0Qx/SzRBxupGoiz6CJuWSNWR41gAYfvZwYIa1eQF/4obaTsOZ3OSQnTC/CEISlYAneazwc9hksiVOFoxpQ/rYRqprCPY/EygEcuEa4ccJcMxFCijQlsID59GrCSxMdDyd4SVZ1XMQR2YzvrXb/NEFNRcR0apCgo9D6Kt6QKJJu6OYsCHDa2lAhZ1ikUifiiJKx841p9p6vWq4rLDK7STo4H34EEc0zPfiJANrEYYODmzUkBS2mQIQ8Su8DVPRSZ43a5E0fkJcc/o2m9Wl1edNNWYNTsmO3Rs6mRHgId5i3JdyZtg+Rs5rpH2qaaGjkrWtyXUGmixrwKhJ7qMBRAfzeqffQ/f4EQ3v+5/3iaSS1EekfN/OU9rYWSEbozVLTjVXnnEB4QE+arKm8EIf3YOtyHK4lIW51HUe6AYgQnJSD0U3mcN6bCTGFQoRQwsaxfJy2LwjwwwfxU="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    # domain: ""
+    domain: "E86oqx2jBLP+a7smlBQrTWWXQxkriEoUNpx/Lpy56UfJU6ysikiA7n4wFheHB0Cb4LLjf1XlBl/Oc11DJP0/BzFSy6IDkdZeBoBnQT22PzK6NQa23Vi13mGqn7ToiV94j75MPu60HCXYWOs4E5H8FVf9MrBuikZ4Ud2NcBWRIrkXafkh2KKb3AMWgmcZRomGWVMv/iN5R5Gdzz+pych8zhvYIADhG0qsVpX7c97oduRmxLH26aiPuBnuC5xK9Q8T+7eOIh9LYEzJ6lGV+Fu9/jj+JzhiYHYHe5OgHFDbrQ42B1EmH6Oc9g8tEL/hDNiD4L7ZpdZSOhjHxSAXyRNZtxxF05Wn7QVsLblrj7EzAancyNacACSZwdVnw+HFsEVmsZH0Bi3PITi55dDH0eWDbwakgQj8K0lY4K9xiWZl8wEzPhP6eibkB/U6TdcccTN7f8FhRb67Cva2/iTD1QyE5phkbUbA4jQ/BUe6A0cmLiXX0RF7ts4bW97Sn11f1vYvF7b89sjEvHhiXIQHSsaN+f0SpqTL2ClAgIOHSX1FTrLozkh5GS5WPR467FmwzC2ZrwJWpwTIDPQMCeTEY/LzrjKvbFo0sz7GxihXrmQ+D5FiFabE08jX82HXbEF3Hjc2WI5lEyV3Mnu8gM6fPM0Y569BgVk7rmGle7SBfRT42fI="
 
+    # emails will be sent from this address
+    fromAddress: "Evrine'a Blog <noreply@citoyenne-xy.github.io>"
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.
@@ -98,7 +100,7 @@ comments:
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
     enabled: false
-    siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
+    siteKey: "6Lc8gLYbAAAAAFqYkgd6-rQVDD6W4BCU6_tLog7E"
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
-    secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
+    secret: "fj/V41mJ1zoIX12v+Wv1kcojkCtsrQnmtPbakmJbr/9X8Wbw2r7ZOyFfRVGGJc42Cr6UGD1CiVK9xtX6QyW5n4ZIbJlmZN/vU7DbAXSYHaShjIaPuioBUUk6C0uoT0YiMuUD18yAoHwDc49Ob3MJY+Ywc1+YoQOsxphROaiSVH/8i0YWBAF1/LrzWOtvxbTciwbFzwSIxe297L+DLGV5IATQZQToa+0TgCuw6tktzZjd9HWBMqds7PeZN8kw8J8UP6UDhCzUso5NQzM9dtl4bIiTvPSeTgIB5Rw6nVfIYkNGlw3Po1aFtX4QaGvST3nHg5KuktAGLsjunKiLnCFKnX4Oh1dOmP6gfvLe33OtKyuE98IRCLPCvzEBOULTefCkWHOUIYnM9z0QkW1fPlyV+cgZbSnWXf8BhqKFYf8wTRv964Oig4Q+UT3m1n84ElhJ00d3/7lhAXFXKZJqmuyeOrQx3SkBSKnpXH6n3KabbEbOsI3pnkvV5jEgf7mk4xj8LGOZMkUeFAa5EczrKzlGOFT0LE2oPyvGB4SlfxlqdqRuvRkjKV+RvZFYHld/FHASg7cVbwkfkGfece8l5CAMyervGnRb1/wS7iU5ocaIoAnORk1hHY67RaWhjzBaK8VNCdnAg00LsYoyzAgcPX7SzAmHy0ieDdwnXVJ6jaraMwU="

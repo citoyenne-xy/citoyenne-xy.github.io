@@ -2,8 +2,8 @@
 main:
    - title: "About"
      url: /about/
-   - title: "Musicals"
-     url: /categories/#musicals
+   - title: "Theatre"
+     url: /categories/#theatre
    - title: "Politics"
      url: /categories/#politics
    - title: "Others"

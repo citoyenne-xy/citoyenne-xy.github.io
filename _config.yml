@@ -20,7 +20,7 @@ title                    : "Moments In The Woods"
 title_separator          : "-"
 subtitle                 : "One peculiar passing moment."# site tagline that appears below site title in masthead
 name                     : "Evrine"
-description              : "Astronomy, Politics, Musical Theatre, and others."
+description              : "Politics, Theatre, and others."
 url                      : "https://citoyenne-xy.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "citoyenne-xy/citoyenne-xy.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,14 +93,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Evrine"
+  name             : "The Sycamore Hugger"
   avatar           : "/assets/images/headshot.png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Things will come alright now, we can make it so."
   email            : "untiltheearthisfree@protonmail.com"
   links:
     - label: "Mastodon"
       icon: "fab fa-mastodon"
-      url: "https://mastodon.online/@Evrine/"
+      url: "https://mastodon.online/@@professionalsycamorehugger/"
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
